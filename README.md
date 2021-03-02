@@ -21,13 +21,14 @@ const addOne = (function(){
 })();
 
 addOne() // will return incremental counter
+```
 
-
-**## 2. What are mutable and immutable types in JavaScript?**
+## 2. What are mutable and immutable types in JavaScript?
 **Mutable** objects are objects **whose value can change once created**, 
 while **immutable** objects are those** whose value cannot change once created**. 
 
 In JavaScript :- 
-
+```
 	**numbers**, **strings**, **null**, **undefined** and **Booleans** are primitive types which are **immutable**. 
 	**Objects**, **arrays**, **functions**, **classes**, **maps**, and **sets** are **mutable**.
+```
