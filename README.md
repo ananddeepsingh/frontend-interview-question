@@ -5,7 +5,7 @@
 
 ## JAVASCRIPT
 
-- create a function which will increase the counter by one
+## 1. create a function which will increase the counter by one
 
 It is example of IIFE, for better understand you can explore these links
 
@@ -21,3 +21,13 @@ const addOne = (function(){
 })();
 
 addOne() // will return incremental counter
+
+
+**## 2. What are mutable and immutable types in JavaScript?**
+**Mutable** objects are objects **whose value can change once created**, 
+while **immutable** objects are those** whose value cannot change once created**. 
+
+In JavaScript :- 
+
+	**numbers**, **strings**, **null**, **undefined** and **Booleans** are primitive types which are **immutable**. 
+	**Objects**, **arrays**, **functions**, **classes**, **maps**, and **sets** are **mutable**.
