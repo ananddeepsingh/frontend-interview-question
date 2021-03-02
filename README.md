@@ -32,3 +32,36 @@ In JavaScript :-
 **numbers**, **strings**, **null**, **undefined** and **Booleans** are primitive types which are **immutable**. <br />
 **Objects**, **arrays**, **functions**, **classes**, **maps**, and **sets** are **mutable**.
 ```
+
+## 3. How to handle Callback hell?
+
+One of the options are async/await and Promise
+
+```
+const makeBurger = async () => {
+  const beef = await getBeef();
+  const cookedBeef = await cookBeef(beef);
+  const buns = await getBuns();
+  const burger = await putBeefBetweenBuns(cookedBeef, buns);
+  return burger;
+};
+
+// Make and serve burger
+makeBurger().then(serve);
+```
+with error handling
+
+```
+const summerActivities = async () => {
+  try {
+    const result = await fightTheDemogorgon();
+    const seasonsLeft = await rollForDamage(result);
+    const finalResult = await closeTheGateIn(seasonsLeft);
+    console.log('Hawkins is safe for ' + finalResult + ' more seasons.'));
+  } catch (e) {
+    failureCallback();
+  }
+}
+
+```
+
