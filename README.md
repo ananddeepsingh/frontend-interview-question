@@ -64,4 +64,49 @@ const summerActivities = async () => {
 }
 
 ```
+## 4. What is Functional Programming?
+
+Functional programming rules :-
+
+1. Keep your data and function totaly separate.
+
+```
+let score = 100;
+
+function addBonus(){
+ score = score + 10;
+ return score;
+}
+
+v/s
+
+// functional approach =>
+
+function addBonus( score ) {
+ return score + 10;
+}
+
+later function is functional programming approach. Benefits for this 
+
+1. It is testable
+2. It is not dependent on global variable.
+3. Self in take function.
+
+
+2. don't update same variable again.
+
+```
+
+## 5. what are synthetic event in React?
+## 6. dynamic vs static typing typescript
+## 7. custom  hook pattern react
+## 8. what is microservices?
+## 9. micro frontend vs monolith
+## 10. react HOC patterns
+## 11. useref react
+## 12. usecallback react
+## 13. functional programming vs oop
+## 14. functional programming core concepts
+
+
 
