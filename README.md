@@ -107,6 +107,25 @@ later function is functional programming approach. Benefits for this
 ## 12. usecallback react
 ## 13. functional programming vs oop
 ## 14. functional programming core concepts
+## 15. what is the output of the following program?
+var x = "asdf zxcv";
+x[1] = "h";
+console.log(x[1]);
+
+## 16. 	what will be the output?
+async function foo() {
+	return 1
+}
+
+
+
+## 17. what will be the output? 
+var x = { a: 1, b: 2};
+var y = x;
+y.a = 42;
+delete y.b
+
+console.log(x.a, x.b)
 
 
 
