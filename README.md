@@ -129,3 +129,29 @@ console.log(x.a, x.b)
 
 
 
+In a React JavaScript Fundamentals full stack L1 round the interviewer asked a following questions.
+
+⭐ What is Prototype?
+
+⭐ What is the difference between de-bouncing and throttling?
+
+⭐ What is a temporal dead zone?
+
+⭐ What is the output for following code.
+👉 const a = {"x":1, "b":2};
+ a.x = 9;
+👉 const b = {"x": 2, b:4};
+ b.y = {"v":5, "t": 8};
+
+⭐ What is a useEffect hook?
+
+⭐ What are the difference between these patterns.
+👉 useEffect((), [a,b]);
+👉 useEffect((), []);
+👉 useEffect(());
+
+⭐ What is the difference between useMemo() and useCallback?
+
+⭐ I want to implement a function `npower` which takes a parameter and throw the result in an array with the power of each elements from the input array? So npower function is a new built in function need to add.
+👉 Input: [1,2,3].npower(3)
+👉 Output: [1,8,21]
